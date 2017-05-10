@@ -1,0 +1,86 @@
+table {
+    border-collapse: collapse;
+    position: absolute;
+    margin: 250px;
+    width: 60%;
+    margin-top: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 50px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.about {
+    text-align: center;
+    text-justify: inter-word;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+/* The navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #6666ff;
+  color: black;
+}
+
+.buttonHolder{ text-align: center; }
+.searchBox { text-align: center; }
+
+.searchError {
+    text-align: center;
+    color: red;    
+}
+
+input[type=text] {
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    width: 25%;  /*280px;*/
+    margin: auto;
+    padding: 5px;  
+    
+}
+
+input[type=submit] , form a {
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+    margin-top: auto;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    background: #cfdeff;
+    color: black;
+}
+
+input[type=submit]:hover, form a:hover {
+    background: #007cc2;
+    cursor: pointer;
+}
